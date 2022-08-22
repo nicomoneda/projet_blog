@@ -1,6 +1,6 @@
-# PROJETBLOG
+# PROJECT BLOG
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.0.
+Ce projet qui construit un site web de blogs a été généré avec [Angular CLI](https://github.com/angular/angular-cli) version 14.1.0.
 
 ## Development server
 

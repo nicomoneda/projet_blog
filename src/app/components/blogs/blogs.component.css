@@ -1,0 +1,25 @@
+.blog {
+    border: 2px solid rgb(151, 151, 188);
+    border-radius: 5px;
+    padding : 5px;
+    height: 50px;
+    max-width: 800px;
+}
+
+.title {
+    font-size: 1.2rem;
+}
+
+.content {
+    font-size: 0.8rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    min-width: 150px;
+    max-width: 750px;    
+}
+
+a {
+    text-decoration: none;
+    
+}

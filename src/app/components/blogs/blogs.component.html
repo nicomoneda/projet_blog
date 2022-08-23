@@ -1,7 +1,11 @@
 <ul *ngFor="let blog of blogList">
-    <li>{{blog.id}}</li>
-    <li>{{blog.title}}</li>
-    
-    <br>
+    <div class="blog">
+        <div class="title">
+            <a routerLink="">{{blog.title}} </a>
+        </div>
+        <div class="content">
+            {{blog.content}}
+        </div>
+    </div>
 
-</ul>>
+</ul>

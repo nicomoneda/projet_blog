@@ -8,3 +8,12 @@ In a first part, user session will not be available. We'll add this aspect in a 
 ## Wireframe
 
 https://www.figma.com/file/Ko5tCxWv9hGr6JDgQQ26lS/Blog-Buddy?node-id=0%3A1
+
+
+
+# Ajoutez le kolkov angular-editor pour l'édition de texte enrichi
+npm install g @kolkov/angular-editor --save
+
+# Après avoir téléchargé/cloné le dépôt, veuillez exécuter
+npm install 
+

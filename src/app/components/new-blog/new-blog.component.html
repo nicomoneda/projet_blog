@@ -1,0 +1,15 @@
+<div class="container">
+    <div class="welcome">
+        <h2>New Blog</h2>
+    </div>
+
+    <div class="welcome">
+    <form [formGroup]="blog" (ngSubmit)="addBlog()" >
+        <label>Title<input type="text" formControlName="title" ></label>
+
+    <angular-editor [(ngModel)]="htmlContent" [config]="config"></angular-editor>
+
+        <button>Add Block</button>
+    </form>
+</div>
+</div>

@@ -1,19 +1,22 @@
 {
     "blogs": [
-        {
-            "id" : 1 ,
-            "title" : "Apple security flaw may allow hackers full control of devices, company warns",
-            "content" : "Major security vulnerabilities found in iOS and macOS devices could allow potential hackers complete control of a user's device, Apple warned on Wednesday. The company quietly published two security reports this past week on the vulnerability citing an anonymous researcher for the discovery. <br> Both bugs exist within WebKit, Apple’s browser engine that powers Safari and applications. Based on the reports provided by Apple, the first vulnerability would allow a hacker complete access to a user's device. Rachel Tobac, CEO of SocialProof Security, told NPR that this could allow potential attackers to impersonate the device's owner and run any kind of software in their name. She added that those 'within the public eye' like journalists and activists should be attentive in getting the update."
-        },
-        {
-            "id" : 2 ,
-            "title" : "'Remarkable': Webb Space Telescope Details Jupiter's Auroras, Rings, Moons",
-            "content" : "Talk about glamour shots. On Monday, NASA released two fresh views of gas giant planet Jupiter as captured by the James Webb Space Telescope. <br> 'We hadn't really expected it to be this good, to be honest', planetary astronomer Imke de Pater, who helped lead the Jupiter observations, said in a NASA statement. 'It's really remarkable that we can see details on Jupiter together with its rings, tiny satellites, and even galaxies in one image'. <br>JWST -- a joint project of NASA, the European Space Agency and the Canadian Space Agency -- used its Near-Infrared Camera (NIRCam) on July 27 to capture the images. The camera's infrared light has been been translated in a way that highlights the planet's storms, auroras, rings and moons. <br> Jupiter's famous oval-shaped Great Red Spot storm looks bright and white in the new images, like a glowing, cosmic egg embedded in the planet's swirling atmosphere. NASA said the bleached color in these images is due to how the storm and clouds reflect sunlight."
-        },
-        {
-            "id" : 3 ,
-            "title" : "Dinosaur Tracks Uncovered in Texas",
-            "content" : "A set of dinosaur tracks were recently found in the aptly named Dinosaur Valley State Park, which is situated in the ‘Dinosaur Capital of Texas,’ also known as Glen Rose, Texas. The city is nicknamed so because 113 million years ago, dinosaurs roamed the area. The proof is in the dinosaur footprints that have been and continue to be found in the Paluxy River riverbed. <br>The most recent tracks were theropod footprints, and were only discovered because of ongoing drought conditions in the area that have caused the Paluxy River to shrink over the past few weeks. The county that the park is located in is currently under an 'exceptional drought', according to the National Integrated Drought Information System."
-        }
+    {
+        "id": 1,
+        "title": "Apple security flaw may allow hackers full control of devices, company warns",
+        "content": "Major security vulnerabilities found in iOS and macOS devices could allow potential hackers complete control of a user's device, Apple warned on Wednesday. The company quietly published two security reports this past week on the vulnerability citing an anonymous researcher for the discovery. <br> Both bugs exist within WebKit, Apple’s browser engine that powers Safari and applications. Based on the reports provided by Apple, the first vulnerability would allow a hacker complete access to a user's device. Rachel Tobac, CEO of SocialProof Security, told NPR that this could allow potential attackers to impersonate the device's owner and run any kind of software in their name. She added that those 'within the public eye' like journalists and activists should be attentive in getting the update.",
+        "comments": [ "Finally apple also vulnerabilities" , "Je utilise andriod  ;-)" ]
+    },
+    {
+        "id": 2,
+        "title": "'Remarkable': Webb Space Telescope Details Jupiter's Auroras, Rings, Moons",
+        "content": "Talk about glamour shots. On Monday, NASA released two fresh views of gas giant planet Jupiter as captured by the James Webb Space Telescope. <br> 'We hadn't really expected it to be this good, to be honest', planetary astronomer Imke de Pater, who helped lead the Jupiter observations, said in a NASA statement. 'It's really remarkable that we can see details on Jupiter together with its rings, tiny satellites, and even galaxies in one image'. <br>JWST -- a joint project of NASA, the European Space Agency and the Canadian Space Agency -- used its Near-Infrared Camera (NIRCam) on July 27 to capture the images. The camera's infrared light has been been translated in a way that highlights the planet's storms, auroras, rings and moons. <br> Jupiter's famous oval-shaped Great Red Spot storm looks bright and white in the new images, like a glowing, cosmic egg embedded in the planet's swirling atmosphere. NASA said the bleached color in these images is due to how the storm and clouds reflect sunlight.",
+        "comments": [ "Allée Jupiter..." ]
+    },
+    {
+        "id": 3,
+        "title": "Dinosaur Tracks Uncovered in Texas",
+        "content": "A set of dinosaur tracks were recently found in the aptly named Dinosaur Valley State Park, which is situated in the ‘Dinosaur Capital of Texas,’ also known as Glen Rose, Texas. The city is nicknamed so because 113 million years ago, dinosaurs roamed the area. The proof is in the dinosaur footprints that have been and continue to be found in the Paluxy River riverbed. <br>The most recent tracks were theropod footprints, and were only discovered because of ongoing drought conditions in the area that have caused the Paluxy River to shrink over the past few weeks. The county that the park is located in is currently under an 'exceptional drought', according to the National Integrated Drought Information System.",
+        "comments": [ "Jusic world huh !?" ]
+    }
     ]
 }

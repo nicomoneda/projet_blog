@@ -18,7 +18,8 @@ export class BlogService {
   }
 
   getBlogById(id: number) {
-    return this.httpClient.get<Blog[]>(`${this.apiUrl}/blogs/id`);
+
+    return this.httpClient.get<Blog>(`${this.apiUrl}/blogs/${id}`);
   }
 
 }

@@ -1,6 +1,7 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Output, OnInit, EventEmitter } from '@angular/core';
 import { BlogService } from 'src/app/services/blog.service';
 import Blog from 'src/app/models/blog.model';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-blog',
@@ -9,15 +10,20 @@ import Blog from 'src/app/models/blog.model';
 })
 export class BlogComponent implements OnInit {
 
-  blog: Blog[] = [] ;
+  blog!: Blog  ;
 
+  
   //getBlogById à partir de blogs
+  
+
+  constructor(private blogService: BlogService, private route: ActivatedRoute) { }
 
 
-  constructor(private blogService: BlogService) { }
 
   ngOnInit(): void {
-    this.blogService.getBlogById(0).subscribe((Blog) => {
+    const id = this.route.snapshot.paramMap.get('id');
+    //console.log(id);
+    this.blogService.getBlogById(id as unknown as number).subscribe((Blog) => {
       this.blog = Blog ;
     })
   }

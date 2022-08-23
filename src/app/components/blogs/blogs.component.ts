@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, EventEmitter, OnInit, Output } from '@angular/core';
 import { BlogService } from 'src/app/services/blog.service';
 import Blog from 'src/app/models/blog.model';
 
@@ -10,13 +10,17 @@ import Blog from 'src/app/models/blog.model';
 export class BlogsComponent implements OnInit {
 
   blogList: Blog[] = [] ;
-
+  
   constructor(private blogService: BlogService) { }
 
   ngOnInit(): void {
     this.blogService.getBlogs().subscribe((Blog) => {
       this.blogList = Blog ;
     })
+  }
+
+  sendId(){
+    
   }
 
 }

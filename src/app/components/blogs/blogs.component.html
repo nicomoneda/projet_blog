@@ -1,11 +1,12 @@
 <ul *ngFor="let blog of blogList">
     <div class="blog">
         <div class="title">
-            <a routerLink="/home/{{blog.id}}">{{blog.title}} </a>
+            <a routerLink="/home/{{blog.id}}" (click)="sendId()">{{blog.title}} </a>
         </div>
         <div class="content">
             {{blog.content}}
         </div>
     </div>
+
 
 </ul>

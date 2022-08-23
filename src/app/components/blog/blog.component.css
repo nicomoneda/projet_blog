@@ -1,0 +1,42 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start ;
+	background-color: rgba(114, 114, 114, 0.3);
+    padding: 10px;
+    margin-top : 5px ;
+    margin-left: 5%;
+    width: 90%;
+    height:750px ;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.welcome {
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    padding: 10px;
+    margin-top : 5px ;
+    width: 90%;
+}
+
+button {
+    padding: 5px;
+    margin : 5px ;
+    width: 100px;
+}
+
+a {
+    text-decoration: none;
+    
+}
+
+.blog {
+    border: 2px solid rgb(151, 151, 188);
+    border-radius: 5px;
+    padding : 5px;
+    height: 50px;
+    max-width: 800px;
+}
